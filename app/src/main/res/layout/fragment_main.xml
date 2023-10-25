@@ -6,9 +6,57 @@
     tools:context=".MainFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@tools:sample/avatars"
+            tools:layout_editor_absoluteX="132dp"
+            tools:layout_editor_absoluteY="65dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Password"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="262dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword2"
+            android:layout_width="334dp"
+            android:layout_height="52dp"
+            android:ems="10"
+            android:hint="Old Password"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="327dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword3"
+            android:layout_width="334dp"
+            android:layout_height="52dp"
+            android:ems="10"
+            android:hint="New Password"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="38dp"
+            tools:layout_editor_absoluteY="398dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword4"
+            android:layout_width="334dp"
+            android:layout_height="52dp"
+            android:ems="10"
+            android:hint="Retype New Password"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="38dp"
+            tools:layout_editor_absoluteY="470dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>
