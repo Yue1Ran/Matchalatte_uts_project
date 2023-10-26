@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Matchalatte_uts_project"
         android:usesCleartextTraffic="true"
-        tools:targetApi="31" >
+        tools:targetApi="34" >
 <!--        <meta-data-->
 <!--            android:name="preloaded_fonts"-->
 <!--            android:resource="@array/preloaded_fonts" />-->
