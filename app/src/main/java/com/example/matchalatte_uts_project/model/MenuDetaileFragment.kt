@@ -1,4 +1,4 @@
-package com.example.matchalatte_uts_project
+package com.example.matchalatte_uts_project.model
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
